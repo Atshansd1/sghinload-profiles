@@ -2,43 +2,78 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>SghinLoad will be installed on your device. This profile allows remote app installation.</string>
+    </dict>
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>FullScreen</key>
-            <true/>
-            <key>Icon</key>
+            <key>Password</key>
+            <string>12345678</string>
+            <key>PayloadCertificateFileName</key>
+            <string>SghinLoad Device Certificate</string>
+            <key>PayloadContent</key>
             <data>
-            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
+            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
             </data>
-            <key>IsRemovable</key>
-            <true/>
-            <key>Label</key>
-            <string>SghinLoad</string>
             <key>PayloadDescription</key>
-            <string>Configures settings for a web clip</string>
+            <string>Provides device authentication (certificate or identity).</string>
             <key>PayloadDisplayName</key>
-            <string>SghinLoad Web Clip</string>
+            <string>SghinLoad Device Certificate</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.webclip.5D77D02A-4D85-4D28-B7B3-AACF203CA87F</string>
+            <string>com.sghinload.link.credential1</string>
+            <key>PayloadOrganization</key>
+            <string>SghinLoad</string>
             <key>PayloadType</key>
-            <string>com.apple.webClip.managed</string>
+            <string>com.apple.security.pkcs12</string>
             <key>PayloadUUID</key>
-            <string>5D77D02A-4D85-4D28-B7B3-AACF203CA87F</string>
+            <string>9FC8CC51-B0D1-4400-9252-6158169A1495</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
-            <key>Precomposed</key>
+        </dict>
+        <dict>
+            <key>AccessRights</key>
+            <integer>6611</integer>
+            <key>CheckInURL</key>
+            <string>https://sghinload.com/mdm/checkin/</string>
+            <key>CheckOutWhenRemoved</key>
             <true/>
-            <key>URL</key>
-            <string>sghinload://link/</string>
+            <key>IdentityCertificateUUID</key>
+            <string>9FC8CC51-B0D1-4400-9252-6158169A1495</string>
+            <key>PayloadDescription</key>
+            <string>Configures MobileDeviceManagement.</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.link.mdm</string>
+            <key>PayloadOrganization</key>
+            <string>SghinLoad</string>
+            <key>PayloadType</key>
+            <string>com.apple.mdm</string>
+            <key>PayloadUUID</key>
+            <string>23749318-B7C6-493D-ADD2-1A2C8C9A99A6</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ServerCapabilities</key>
+            <array>
+                <string>com.apple.mdm.per-user-connections</string>
+            </array>
+            <key>ServerURL</key>
+            <string>https://sghinload.com/mdm/</string>
+            <key>SignMessage</key>
+            <false/>
+            <key>Topic</key>
+            <string>com.apple.mgmt.XServer.A1E5DC82-ADCF-405A-AA5E-C894FAE89075</string>
+            <key>UseDevelopmentAPNS</key>
+            <false/>
         </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>This profile will link your Apple TV to SghinLoad for remote app installation.</string>
+    <string>Installation of this profile will link your device to SghinLoad and you will be able to install apps remotely.</string>
     <key>PayloadDisplayName</key>
-    <string>SghinLoad Device Link</string>
+    <string>SghinLoad device link</string>
     <key>PayloadIdentifier</key>
-    <string>com.sghinload.profile.</string>
+    <string>com.sghinload.link</string>
     <key>PayloadOrganization</key>
     <string>SghinLoad</string>
     <key>PayloadRemovalDisallowed</key>
@@ -46,7 +81,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>A49B278E-F34A-42CB-9D5C-FDDE2316723B</string>
+    <string>67626967-6F90-4867-947F-62E97AF5F0F2</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
