@@ -10,11 +10,11 @@
             <key>PayloadDisplayName</key>
             <string>SghinLoad Device Management</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.mdm.E6B19240-33DD-43B2-87ED-FF920B2C9302</string>
+            <string>com.sghinload.mdm.7B0223C8-8CDD-4E5C-ADD2-610FB855CBEB</string>
             <key>PayloadType</key>
             <string>com.apple.mdm</string>
             <key>PayloadUUID</key>
-            <string>E6B19240-33DD-43B2-87ED-FF920B2C9302</string>
+            <string>7B0223C8-8CDD-4E5C-ADD2-610FB855CBEB</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ServerURL</key>
@@ -32,11 +32,11 @@
             <key>PayloadDisplayName</key>
             <string>SghinLoad Device Link</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.webclip.1335BA59-21DE-493F-9137-2B0DC417A30D</string>
+            <string>com.sghinload.webclip.01B82F0A-B514-4E3F-A07C-18CB1FB3BB13</string>
             <key>PayloadType</key>
             <string>com.apple.webClip.managed</string>
             <key>PayloadUUID</key>
-            <string>1335BA59-21DE-493F-9137-2B0DC417A30D</string>
+            <string>01B82F0A-B514-4E3F-A07C-18CB1FB3BB13</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>FullScreen</key>
@@ -58,11 +58,11 @@
             <key>PayloadDisplayName</key>
             <string>App Management</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.appmanagement.9E05ABEA-3C01-4A55-ABE8-CB8EB499747D</string>
+            <string>com.sghinload.appmanagement.2559F6C0-7663-40CA-A1B6-046FB767E1AF</string>
             <key>PayloadType</key>
             <string>com.apple.app.management</string>
             <key>PayloadUUID</key>
-            <string>9E05ABEA-3C01-4A55-ABE8-CB8EB499747D</string>
+            <string>2559F6C0-7663-40CA-A1B6-046FB767E1AF</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ManagedApps</key>
@@ -79,11 +79,11 @@
             <key>PayloadDisplayName</key>
             <string>SghinLoad Device Certificate</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.certificate.ABA8B1EC-A39E-4A01-863C-4C1415F2C150</string>
+            <string>com.sghinload.certificate.DA1B50A5-E572-464D-94BE-469198E33E04</string>
             <key>PayloadType</key>
             <string>com.apple.security.pem</string>
             <key>PayloadUUID</key>
-            <string>ABA8B1EC-A39E-4A01-863C-4C1415F2C150</string>
+            <string>DA1B50A5-E572-464D-94BE-469198E33E04</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadContent</key>
@@ -97,7 +97,7 @@
     <key>PayloadDisplayName</key>
     <string>SghinLoad device link</string>
     <key>PayloadIdentifier</key>
-    <string>com.sghinload.3D0E56C9-4951-480E-B3F1-4D2F3A4AEBBD</string>
+    <string>com.sghinload.B2CA542C-8284-440C-9BB8-BB496C6F17FD</string>
     <key>PayloadOrganization</key>
     <string>sghinload</string>
     <key>PayloadRemovalDisallowed</key>
@@ -105,7 +105,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>3D0E56C9-4951-480E-B3F1-4D2F3A4AEBBD</string>
+    <string>B2CA542C-8284-440C-9BB8-BB496C6F17FD</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>ConsentText</key>
