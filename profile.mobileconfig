@@ -34,6 +34,28 @@
             <integer>1</integer>
         </dict>
         <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>SghinLoad Connect</string>
+            <key>PayloadDescription</key>
+            <string>Connect to SghinLoad App</string>
+            <key>PayloadDisplayName</key>
+            <string>SghinLoad WebClip</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.webclip.47BC8E2A-3035-4B8F-8B10-8D6DF4C22D0C</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>47BC8E2A-3035-4B8F-8B10-8D6DF4C22D0C</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>URL</key>
+            <string>sghinload://device/connect/</string>
+        </dict>
+        <dict>
             <key>AccessRights</key>
             <integer>6611</integer>
             <key>CheckInURL</key>
@@ -51,7 +73,7 @@
             <key>PayloadType</key>
             <string>com.apple.mdm</string>
             <key>PayloadUUID</key>
-            <string>23749318-B7C6-493D-ADD2-1A2C8C9A99A6</string>
+            <string>94016ECE-68DA-4042-9C82-A77BFE271818</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ServerCapabilities</key>
@@ -63,7 +85,7 @@
             <key>SignMessage</key>
             <false/>
             <key>Topic</key>
-            <string>com.apple.mgmt.XServer.A1E5DC82-ADCF-405A-AA5E-C894FAE89075</string>
+            <string>com.apple.mgmt.XServer.B53AFCCC-FE0E-4950-957A-5A435FE72FAB</string>
             <key>UseDevelopmentAPNS</key>
             <false/>
         </dict>
@@ -81,7 +103,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>67626967-6F90-4867-947F-62E97AF5F0F2</string>
+    <string>3BFCFC88-081E-4B1F-8CAF-77CBC29BEC26</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
