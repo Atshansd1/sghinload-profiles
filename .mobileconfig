@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Mobile Device Management</string>
+            <key>PayloadDisplayName</key>
+            <string>SghinLoad Device Management</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.mdm.5F8A7D03-6151-46A9-B3F9-04D54EAE832E</string>
+            <key>PayloadType</key>
+            <string>com.apple.mdm</string>
+            <key>PayloadUUID</key>
+            <string>5F8A7D03-6151-46A9-B3F9-04D54EAE832E</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ServerURL</key>
+            <string>https://sghinload.com/mdm/</string>
+            <key>CheckInURL</key>
+            <string>https://sghinload.com/mdm/checkin/</string>
+            <key>AccessRights</key>
+            <integer>8191</integer>
+            <key>CheckOutWhenRemoved</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Web Clip</string>
+            <key>PayloadDisplayName</key>
+            <string>SghinLoad Device Link</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.webclip.A37127D0-E74E-42C2-972E-461532FD4F4C</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>A37127D0-E74E-42C2-972E-461532FD4F4C</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>SghinLoad</string>
+            <key>URL</key>
+            <string>sghinload://link/</string>
+            <key>Icon</key>
+            <data>
+            /* Base64 app icon would go here */
+            </data>
+        </dict>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Manages Apps</string>
+            <key>PayloadDisplayName</key>
+            <string>App Management</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.appmanagement.BB13EB09-78A1-4AF4-B339-7003B1DA2980</string>
+            <key>PayloadType</key>
+            <string>com.apple.app.management</string>
+            <key>PayloadUUID</key>
+            <string>BB13EB09-78A1-4AF4-B339-7003B1DA2980</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ManagedApps</key>
+            <array>
+                <dict>
+                    <key>ManagementFlags</key>
+                    <integer>0</integer>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Device Identification Certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>SghinLoad Device Certificate</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.certificate.6C0B6C28-3925-4250-8B8A-7753DC7704B1</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.pem</string>
+            <key>PayloadUUID</key>
+            <string>6C0B6C28-3925-4250-8B8A-7753DC7704B1</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <data>
+            /* Base64 certificate placeholder */
+            </data>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Installation of this profile will link your device to SghinLoad and you will be able to install apps by tapping "INSTALL" buttons. You can always remove this profile from Settings App to unlink your device</string>
+    <key>PayloadDisplayName</key>
+    <string>SghinLoad device link</string>
+    <key>PayloadIdentifier</key>
+    <string>com.sghinload.D492CC39-6B6D-4531-9190-30F3FC759FFB</string>
+    <key>PayloadOrganization</key>
+    <string>sghinload</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>D492CC39-6B6D-4531-9190-30F3FC759FFB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>This profile allows SghinLoad to install apps on your Apple TV.</string>
+    </dict>
+</dict>
+</plist>
