@@ -5,113 +5,97 @@
     <key>PayloadContent</key>
     <array>
         <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>SghinLoad Identity</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIDiDCCAnACCQDVXuKiNnXQYTANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xEDAOBgNVBAoMB1RleHRpbmMxEDAOBgNVBAsMB1RleHRpbmMxJTAjBgNVBAMMHGNvbS5zZ2hpbmxvYWQucHJvZmlsZS5kZXZpY2UwHhcNMjQwNTIyMTYyNTQ1WhcNMzQwNTE5MTYyNTQ1WjCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xEDAOBgNVBAoMB1RleHRpbmMxEDAOBgNVBAsMB1RleHRpbmMxJTAjBgNVBAMMHGNvbS5zZ2hpbmxvYWQucHJvZmlsZS5kZXZpY2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7VJTMezFzIU8KxmJwSQONWT9pfEQ7MYubhoHUnsZXQYF9rDJiJtFYJKzHC0+stOiL0jIrn90szIrjE6whz5kU0h86IwLGFsKN+UQ17Uzu/rM5xgPCFZPJu67QGgJ5dr3C7IcKN5E3NQI1ov9vFuj1JGIgwcZcHjbL4bv3T/RUI/Zv9eUqTbZH2K4DwqUpgLYnaBn8ho0OoDowjNq83GwOlYgA4DBmYEYcAYuVcBVIMGcJBNPAblxJVFnkFPRUxXJBaKGOclaGcvxtLHRvKxuCgUFPihGGKRHD1aXD82GiZEbKjfYZxF6JeRkEA2q9HF2jK4KVUZpuhWFCV9t1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAKAQzUGTxwcuXug2qnYtGOixX4bXCIvQUmAo7v2KGXanOcJWYk0vYIbsuF8tVKbPa9KTAxGjxNrURMXlG8FCOvLHGjH0vu+32gkQJdrJoLX45GBPTWx+tWCp9GjtoYQwdNTZYm0Mw+XpOGwLfoI9iPbvqAZjGbhBvmz+hUWw5aYhK1voggkLkTrDcJU6QFikEebr7/u7AJSCuVbSUMk57yQKbTo/DcHbHGkJ5ZJnXnHzA2IBryDHRYNlTbklSX9qLluusGGMCFqkTJk9pwy0cZn5NLblKF7o9Vf+KHcHBmF63oJc78PaIzTB2tUOQXypghV+vF1f80u88Xwt+La8rek=
+            </data>
             <key>PayloadDescription</key>
-            <string>Configures Mobile Device Management</string>
+            <string>Adds a certificate</string>
             <key>PayloadDisplayName</key>
-            <string>SghinLoad Device Management</string>
+            <string>SghinLoad Identity Certificate</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.mdm.54EECCD7-BA15-4AE7-B007-53CCB798582C</string>
+            <string>com.sghinload.credential</string>
             <key>PayloadType</key>
-            <string>com.apple.mdm</string>
+            <string>com.apple.security.pkcs12</string>
             <key>PayloadUUID</key>
-            <string>54EECCD7-BA15-4AE7-B007-53CCB798582C</string>
+            <string>DB86F76B-F3EB-45FA-B9D2-04D55C963DF8</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
-            <key>ServerURL</key>
-            <string>https://sghinload.com/mdm/</string>
-            <key>CheckInURL</key>
-            <string>https://sghinload.com/mdm/checkin/</string>
-            <key>AccessRights</key>
-            <integer>8191</integer>
-            <key>CheckOutWhenRemoved</key>
-            <true/>
         </dict>
         <dict>
-            <key>PayloadDescription</key>
-            <string>Configures Web Clip</string>
-            <key>PayloadDisplayName</key>
-            <string>SghinLoad Device Link</string>
-            <key>PayloadIdentifier</key>
-            <string>com.sghinload.webclip.6BB2A100-D806-4766-908D-B7A21DB37B78</string>
-            <key>PayloadType</key>
-            <string>com.apple.webClip.managed</string>
-            <key>PayloadUUID</key>
-            <string>6BB2A100-D806-4766-908D-B7A21DB37B78</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
             <key>FullScreen</key>
             <true/>
+            <key>Icon</key>
+            <data>
+            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
+            </data>
             <key>IsRemovable</key>
             <true/>
             <key>Label</key>
             <string>SghinLoad</string>
+            <key>PayloadDescription</key>
+            <string>Configures settings for a web clip</string>
+            <key>PayloadDisplayName</key>
+            <string>SghinLoad Web Clip</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sghinload.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>9259E897-3C42-4D00-A4AC-982B7C0FEA05</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
             <key>URL</key>
             <string>sghinload://link/</string>
-            <key>Icon</key>
-            <data>
-            /* Base64 app icon would go here */
-            </data>
         </dict>
         <dict>
+            <key>AccessRights</key>
+            <integer>8191</integer>
+            <key>CheckInURL</key>
+            <string>https://sghinload.com/mdm/checkin/</string>
+            <key>CheckOutWhenRemoved</key>
+            <true/>
+            <key>IdentityCertificateUUID</key>
+            <string>DB86F76B-F3EB-45FA-B9D2-04D55C963DF8</string>
             <key>PayloadDescription</key>
-            <string>Manages Apps</string>
+            <string>Configures Mobile Device Management</string>
             <key>PayloadDisplayName</key>
-            <string>App Management</string>
+            <string>SghinLoad MDM</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.appmanagement.1EC044AC-2FC5-4A66-BE21-DA2BCE525262</string>
+            <string>com.sghinload.mdm</string>
+            <key>PayloadOrganization</key>
+            <string>SghinLoad</string>
             <key>PayloadType</key>
-            <string>com.apple.app.management</string>
+            <string>com.apple.mdm</string>
             <key>PayloadUUID</key>
-            <string>1EC044AC-2FC5-4A66-BE21-DA2BCE525262</string>
+            <string>8BEC9F24-FCDE-4683-823F-EFA0E866B726</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
-            <key>ManagedApps</key>
-            <array>
-                <dict>
-                    <key>ManagementFlags</key>
-                    <integer>0</integer>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>PayloadDescription</key>
-            <string>Device Identification Certificate</string>
-            <key>PayloadDisplayName</key>
-            <string>SghinLoad Device Certificate</string>
-            <key>PayloadIdentifier</key>
-            <string>com.sghinload.certificate.7BED4930-7400-4A37-AA95-7F76FF05ED9C</string>
-            <key>PayloadType</key>
-            <string>com.apple.security.pem</string>
-            <key>PayloadUUID</key>
-            <string>7BED4930-7400-4A37-AA95-7F76FF05ED9C</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadContent</key>
-            <data>
-            /* Base64 certificate placeholder */
-            </data>
+            <key>ServerURL</key>
+            <string>https://sghinload.com/mdm/</string>
+            <key>Topic</key>
+            <string>com.sghinload.profile.device</string>
         </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>Installation of this profile will link your device to SghinLoad and you will be able to install apps by tapping "INSTALL" buttons. You can always remove this profile from Settings App to unlink your device</string>
+    <string>This profile will link your Apple TV to SghinLoad for remote app installation.</string>
     <key>PayloadDisplayName</key>
-    <string>SghinLoad device link</string>
+    <string>SghinLoad Device Link</string>
     <key>PayloadIdentifier</key>
-    <string>com.sghinload.33537143-2D48-4757-84F5-F09043685207</string>
+    <string>com.sghinload.profile.</string>
     <key>PayloadOrganization</key>
-    <string>sghinload</string>
+    <string>SghinLoad</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>33537143-2D48-4757-84F5-F09043685207</string>
+    <string>FD4DB472-7968-4486-8A1F-B185E54EAA86</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
-    <key>ConsentText</key>
-    <dict>
-        <key>default</key>
-        <string>This profile allows SghinLoad to install apps on your Apple TV.</string>
-    </dict>
 </dict>
 </plist>
