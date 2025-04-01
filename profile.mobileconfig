@@ -5,26 +5,6 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>PayloadCertificateFileName</key>
-            <string>SghinLoad Identity</string>
-            <key>PayloadContent</key>
-            <data>
-            MIIDiDCCAnACCQDVXuKiNnXQYTANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xEDAOBgNVBAoMB1RleHRpbmMxEDAOBgNVBAsMB1RleHRpbmMxJTAjBgNVBAMMHGNvbS5zZ2hpbmxvYWQucHJvZmlsZS5kZXZpY2UwHhcNMjQwNTIyMTYyNTQ1WhcNMzQwNTE5MTYyNTQ1WjCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xEDAOBgNVBAoMB1RleHRpbmMxEDAOBgNVBAsMB1RleHRpbmMxJTAjBgNVBAMMHGNvbS5zZ2hpbmxvYWQucHJvZmlsZS5kZXZpY2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7VJTMezFzIU8KxmJwSQONWT9pfEQ7MYubhoHUnsZXQYF9rDJiJtFYJKzHC0+stOiL0jIrn90szIrjE6whz5kU0h86IwLGFsKN+UQ17Uzu/rM5xgPCFZPJu67QGgJ5dr3C7IcKN5E3NQI1ov9vFuj1JGIgwcZcHjbL4bv3T/RUI/Zv9eUqTbZH2K4DwqUpgLYnaBn8ho0OoDowjNq83GwOlYgA4DBmYEYcAYuVcBVIMGcJBNPAblxJVFnkFPRUxXJBaKGOclaGcvxtLHRvKxuCgUFPihGGKRHD1aXD82GiZEbKjfYZxF6JeRkEA2q9HF2jK4KVUZpuhWFCV9t1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAKAQzUGTxwcuXug2qnYtGOixX4bXCIvQUmAo7v2KGXanOcJWYk0vYIbsuF8tVKbPa9KTAxGjxNrURMXlG8FCOvLHGjH0vu+32gkQJdrJoLX45GBPTWx+tWCp9GjtoYQwdNTZYm0Mw+XpOGwLfoI9iPbvqAZjGbhBvmz+hUWw5aYhK1voggkLkTrDcJU6QFikEebr7/u7AJSCuVbSUMk57yQKbTo/DcHbHGkJ5ZJnXnHzA2IBryDHRYNlTbklSX9qLluusGGMCFqkTJk9pwy0cZn5NLblKF7o9Vf+KHcHBmF63oJc78PaIzTB2tUOQXypghV+vF1f80u88Xwt+La8rek=
-            </data>
-            <key>PayloadDescription</key>
-            <string>Adds a certificate</string>
-            <key>PayloadDisplayName</key>
-            <string>SghinLoad Identity Certificate</string>
-            <key>PayloadIdentifier</key>
-            <string>com.sghinload.credential</string>
-            <key>PayloadType</key>
-            <string>com.apple.security.pkcs12</string>
-            <key>PayloadUUID</key>
-            <string>DB86F76B-F3EB-45FA-B9D2-04D55C963DF8</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-        <dict>
             <key>FullScreen</key>
             <true/>
             <key>Icon</key>
@@ -40,45 +20,17 @@
             <key>PayloadDisplayName</key>
             <string>SghinLoad Web Clip</string>
             <key>PayloadIdentifier</key>
-            <string>com.sghinload.webclip</string>
+            <string>com.sghinload.webclip.5D77D02A-4D85-4D28-B7B3-AACF203CA87F</string>
             <key>PayloadType</key>
             <string>com.apple.webClip.managed</string>
             <key>PayloadUUID</key>
-            <string>9259E897-3C42-4D00-A4AC-982B7C0FEA05</string>
+            <string>5D77D02A-4D85-4D28-B7B3-AACF203CA87F</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>Precomposed</key>
             <true/>
             <key>URL</key>
             <string>sghinload://link/</string>
-        </dict>
-        <dict>
-            <key>AccessRights</key>
-            <integer>8191</integer>
-            <key>CheckInURL</key>
-            <string>https://sghinload.com/mdm/checkin/</string>
-            <key>CheckOutWhenRemoved</key>
-            <true/>
-            <key>IdentityCertificateUUID</key>
-            <string>DB86F76B-F3EB-45FA-B9D2-04D55C963DF8</string>
-            <key>PayloadDescription</key>
-            <string>Configures Mobile Device Management</string>
-            <key>PayloadDisplayName</key>
-            <string>SghinLoad MDM</string>
-            <key>PayloadIdentifier</key>
-            <string>com.sghinload.mdm</string>
-            <key>PayloadOrganization</key>
-            <string>SghinLoad</string>
-            <key>PayloadType</key>
-            <string>com.apple.mdm</string>
-            <key>PayloadUUID</key>
-            <string>8BEC9F24-FCDE-4683-823F-EFA0E866B726</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>ServerURL</key>
-            <string>https://sghinload.com/mdm/</string>
-            <key>Topic</key>
-            <string>com.sghinload.profile.device</string>
         </dict>
     </array>
     <key>PayloadDescription</key>
@@ -94,7 +46,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>FD4DB472-7968-4486-8A1F-B185E54EAA86</string>
+    <string>A49B278E-F34A-42CB-9D5C-FDDE2316723B</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
